@@ -17,9 +17,9 @@
 
     <body>
         <?php 
-		require_once("../myframe/componentes/ControleBanco.php");
-		require_once("../myframe/componentes/ControleSessao.php");
-		require_once("../myframe/componentes/User.php");
+		require_once("./myframe/componentes/ControleBanco.php");
+		require_once("./myframe/componentes/ControleSessao.php");
+		require_once("./myframe/componentes/User.php");
 	?>
         <header>
             <div class="container_menu">
