@@ -1,0 +1,45 @@
+.login_form {
+    background-color: #27293D;
+    width: 60%;
+    padding: 1rem;
+    color: #E3FEEB;
+    border-radius: 0.3rem;
+}
+.login_form h1{
+    margin-bottom: 2rem;
+    font-size: 14pt;
+}
+.login_form label{
+    font-size: 11pt;
+}
+form {
+    display: flex;
+    flex-direction: column;
+}
+.login_form input[type="text"],
+.login_form input[type="password"] {
+    padding: 0.4rem;
+    width: 50%;
+    background-color: #323447;
+    border: none;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+.login_form input[type="text"],
+.login_form input[type="password"] {
+    background-color: #323447;
+    outline: none;
+}
+form button {
+    margin-right: 100%;
+    padding: 0.5rem;
+    padding-left: 2rem;
+    padding-right: 2rem;
+}
+.login_footer a {
+    color: #ce1bb0;
+    text-decoration: none;
+}
+.login_footer a:hover {
+    color: rgb(236, 46, 205)
+}

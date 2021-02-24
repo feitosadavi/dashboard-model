@@ -1,0 +1,85 @@
+.container_menu {
+    padding: 2rem;
+    display: flex;
+    justify-content: space-between;
+    background-color: #1E1E2D;
+    color: white;
+    height: 0.5rem;
+    width: 100vw;
+}
+.menu_title {
+    align-self: center;
+    margin-left: 2rem;
+    font-size: 15pt;
+    margin-top: 0.5rem;
+}
+.menu_content {
+    display: flex;
+    align-items: center;
+}
+nav ul {
+    display: flex;
+}
+nav li {
+    list-style-type: none;
+    margin-right: 1.5rem;
+}
+nav ul li a {
+    display: flex;
+    flex-direction: column;
+    color: #191925;
+}
+.profile-icon {
+    border-radius: 100px;
+    width: 2.5rem;
+    height: 2.5rem;
+    overflow:hidden;
+}
+.profile-icon img {
+    height: 100%;
+}
+nav ul li a img:nth-child(2) {
+    width: auto;
+    transition: 0.2s;
+}
+#content_icon {
+    display: flex;
+}
+#content_menu_icon {
+    position: absolute;
+    margin-top: 1rem;
+    padding: 1.5rem;
+    border-radius: 0.3rem;
+    background-color: #ffff;
+    display: none;
+    animation: fadeIn 0.2s ease-in both;
+}
+#content_menu_icon a {
+    text-decoration: none;
+}
+@keyframes rotateIn {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(90deg);
+    }
+}
+@keyframes rotateOut {
+    from {
+        transform: rotate(90deg);
+    }
+    to {
+        transform: rotate(0deg);
+    }
+}
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: translate3d(0, -20%, 0);
+    }
+    to {
+        opacity: 1;
+        transform: translate3d(0, 0, 0);
+    }
+}
